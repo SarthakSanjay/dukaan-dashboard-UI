@@ -5,7 +5,7 @@ import SidebarMenu from "./SidebarMenu";
 import Credit from "./Credit";
 const Sidebar = () => {
   return (
-    <div className="w-1/6 bg-[#1e2640] h-screen  px-4 relative">
+    <div className="w-1/6 bg-[#1e2640] h-screen  px-4  fixed top-0 left-0">
     {/* top */}
       <div className="flex w-full text-white  justify-around items-center ">
         <div className="flex pt-3">
