@@ -15,8 +15,8 @@ const Navbar = () => {
         </div>
         <Search />
         <div className='flex text-2xl h-full gap-2 justify-center items-center'>
-            <span className='bg-[#e6e6e6] text-[#4c4c4c] rounded-full p-2'><RiMessage2Fill /></span>
-            <span className='bg-[#e6e6e6] text-[#4c4c4c] rounded-full p-2'><FaCaretDown /></span>
+            <span className='bg-[#e6e6e6] text-[#4c4c4c] rounded-full p-2 cursor-pointer'><RiMessage2Fill /></span>
+            <span className='bg-[#e6e6e6] text-[#4c4c4c] rounded-full p-2 cursor-pointer'><FaCaretDown /></span>
         </div>
     </div>
   )

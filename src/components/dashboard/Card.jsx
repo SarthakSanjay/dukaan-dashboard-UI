@@ -9,7 +9,7 @@ const Card = ({head , amount , orders , reminder}) => {
        <h1 className='text-md flex items-center gap-2 '>{head} <IoIosHelpCircleOutline /></h1>
         <div className='flex justify-between items-center w-full'>
             <h1 className='text-3xl font-semibold '>{amount}</h1>
-            {orders ? <span className='underline  flex items-center gap-2 '>{orders} <FaChevronRight /></span> : ''}
+            {orders ? <span className={`underline font-medium  flex items-center gap-2 ${reminder ? 'text-white':'text-[#146eb4]'} `}>{orders} <FaChevronRight /></span> : ''}
             
         </div>
        </div>
